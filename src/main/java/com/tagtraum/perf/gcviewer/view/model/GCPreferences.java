@@ -204,7 +204,7 @@ public class GCPreferences {
     }
 
     private File getPreferencesFile() {
-        return new File(System.getProperty("user.home") + "/gcviewer.properties");
+        return new File(System.getProperty("user.home") + "/.gcviewerrc");
     }
     
     public void setShowDataPanel(boolean showDataPanel) {
